@@ -1,0 +1,478 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "0,8": "长安马自达",
+    "19,3": "显示字段包含在下拉子项",
+    "22,3": "显示字段包含在下拉子项且是固定模式",
+    "26,3": "显示字段包含在下拉子项且是AutoFit"
+  },
+  "AttachInfos": {
+    "0,8": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "a76d2e0f-26bb-4beb-bcb7-6f05a2c8b11c"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "6e4229a7-5032-48cd-9a4e-888a6214741e"
+        },
+        "CellDefaultValue": "长安马自达"
+      }
+    },
+    "0,15": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车销售信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "efce732e-4f7f-4a9d-86cd-a8af3ad9db01"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "355c2f66-3af1-4574-b2e1-fb27ed1fa3ad"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "汽车销售信息",
+            "ColumnName": "企业",
+            "GUID": "2619f4b3-1850-444a-928a-ae2f8f07a219"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Page1!I1"
+          }
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "319dc2a41b8e4950bcfc7d06ac35db45",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "车型",
+              "GUID": "31948bc8-7c3d-48e1-993e-e8223d5dabf7"
+            },
+            "ColumnName": "车型",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 50.0
+            }
+          },
+          {
+            "GUID": "c15a0c2a897d40b0a4e2f6d0cd3c6109",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "车型",
+              "GUID": "705aed17-6dcf-40a4-940c-20977f66bf8b"
+            },
+            "ColumnName": "车型",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 50.0
+            }
+          },
+          {
+            "GUID": "2429d3bd7fdf4b75af10c1c4b28fc470",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "企业",
+              "GUID": "cea2bbe0-2e1e-4422-a8c8-239131001705"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 90.0
+            }
+          },
+          {
+            "GUID": "b26ae3a54959444db0478a196bb30d82",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "品牌",
+              "GUID": "8350ca12-c843-4de4-ab11-dd3214b8f137"
+            },
+            "ColumnName": "品牌",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 90.0
+            }
+          }
+        ],
+        "AddNullItemWhenBinding": true
+      }
+    },
+    "3,3": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车销售信息",
+        "RowIndex": 3,
+        "ColumnIndex": 3,
+        "RowCount": 16,
+        "ColumnCount": 37,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "ID",
+        "GUID": "8c159353-ef8c-4957-8f87-e0e15da09e8f"
+      }
+    },
+    "4,8": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "企业",
+        "GUID": "4c36ef1e-4fc3-41f4-89a8-813939b081a0"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "c166472b-7223-4e2f-af6c-e0a9012fa31d"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "d45f6839-5984-4c6e-b700-edcf01132da9"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "473897c8030b4508a1b9e44e16dbd7c4",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "d0d2e3b2-e17f-47d6-b6e4-8e71e67548e3"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 90.0
+            }
+          },
+          {
+            "GUID": "106e1899f263451a9b8c189e74235c5b",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "15f9aa3e-5739-45c0-b5d8-6e6c68e03d10"
+            },
+            "ColumnName": "联系人",
+            "Alignment": 1
+          },
+          {
+            "GUID": "d4aa90f8f2d544fa9ed161101ebc4533",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "c2f52db4-6802-42f8-a124-8ba4da255281"
+            },
+            "ColumnName": "电话",
+            "Alignment": 1,
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 60.0
+            }
+          },
+          {
+            "GUID": "10d31044e9384b2f9d8c42d1cc933c2c",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "地址",
+              "GUID": "7ce44e11-8719-42a4-ad6c-480ae40c1651"
+            },
+            "ColumnName": "地址",
+            "Alignment": 3,
+            "WidthInfo": {
+              "MaxWidth": 50.0
+            }
+          }
+        ]
+      }
+    },
+    "4,15": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "车型",
+        "GUID": "6b604145-1d3e-470b-ae76-c1416c8b75fc"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车销售信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "1cdcebef-19c4-4da6-8922-bbf45ab02b28"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "a2f67bc9-462b-4a61-809f-da12b90cc15e"
+        },
+        "ItemsQuery": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "汽车销售信息",
+            "ColumnName": "企业",
+            "GUID": "444300a8-f7bf-4cea-b7cd-59acaadd13d7"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=Page1!I5"
+          }
+        },
+        "CacheSetting": {},
+        "DropDownSubItems": [
+          {
+            "GUID": "2e870dccbc59457a94699f46b45f74bd",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "企业",
+              "GUID": "82898322-5fbb-4464-8f7f-e5516a5613cc"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 30.0
+            }
+          },
+          {
+            "GUID": "d72e29de0e074b57b37f961e906d0632",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "品牌",
+              "GUID": "ef75788c-6cea-4a99-b5da-1c66b246d0a8"
+            },
+            "ColumnName": "品牌",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 70.0
+            }
+          },
+          {
+            "GUID": "7249478a1cf940dda39e4a081a299fd4",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "车型",
+              "GUID": "eee02ad4-a642-49fa-b19d-934a94affbf7"
+            },
+            "ColumnName": "车型",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 90.0
+            }
+          }
+        ]
+      }
+    },
+    "20,3": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "a66baf65-7a5c-4fc6-b67f-bf9a8e91e298"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "fa62e7e7-9d5e-4a01-aa09-37c08312fce3"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "8832b8d47dad492d8a5d4103b1a20dad",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Text",
+              "GUID": "2dc2f987-5e87-4931-b346-75c4a1f62afd"
+            },
+            "ColumnName": "Text",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 30.0
+            }
+          },
+          {
+            "GUID": "685eaf1f335c480fb4e8ca746520b17e",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Date_and_Time",
+              "GUID": "73e10ac5-7e65-41f9-9482-55105234de75"
+            },
+            "ColumnName": "Date_and_Time"
+          },
+          {
+            "GUID": "5de93db68c8e42dd85e9bcb19ef877d6",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Integer",
+              "GUID": "cd0d1eb8-2de8-42b2-9ca3-56d408c86e51"
+            },
+            "ColumnName": "Integer"
+          },
+          {
+            "GUID": "8aed9541e4544e97b369f26a5639be70",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Time",
+              "GUID": "55f1eaec-1e1c-4b7b-b135-f97e31c14037"
+            },
+            "ColumnName": "Time"
+          }
+        ]
+      }
+    },
+    "23,3": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车销售信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "0d11bce2-8074-43ad-9da7-b50d967a38ca"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "de3d943d-a57b-4c41-b828-3cc38bd9dd0d"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "ec88533927524431ae1c3e81aed1dbca",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "车型",
+              "GUID": "6f3d9d5d-ba77-4720-acdc-c1e2a0719c92"
+            },
+            "ColumnName": "车型",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 30.0
+            }
+          }
+        ]
+      }
+    },
+    "27,3": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车销售信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "427a46ac-127a-4a8b-a308-fe6095febfc9"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车销售信息",
+          "ColumnName": "车型",
+          "GUID": "ec1c17f5-bc54-49b5-aa7f-98d1675e6c68"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "526d0aac08c14984af4eebd690eaa5a8",
+            "BindingInfo": {
+              "TableName": "汽车销售信息",
+              "ColumnName": "车型",
+              "GUID": "1d87bbe2-9d5c-4894-b883-be39ececb182"
+            },
+            "ColumnName": "车型",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 50.0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,15": 0,
+      "4,15": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,3,14,37",
+    "4,3,1,5",
+    "4,8,1,7",
+    "4,15,1,7",
+    "0,8,2,7",
+    "0,15,2,7",
+    "20,3,2,10",
+    "23,3,2,10",
+    "27,3,2,10",
+    "3,3,1,5",
+    "3,8,1,7",
+    "3,15,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//59s0zcjIfLD9d4F6o4/66V2MjHtN7H7t6JC9WW3NtEI99pH6L2xC7NGkGnpxzcNbZ8ePfQ61x2xhOIlr1N0AR8INRT4p/T59IaloGijrBIbHRn/v4XwwSFifFoz7/cb14iBXFeFl/QkgUG3DgOLj7iD+iyXrPyoEqk5GUk1bX/pQnPQS8xyT8L/Z5REO832dGU6nO5KuOez7ClVfVPTpFFgpOCOxZVRAF9RC7bwPU7Utj6rVUo9KP4bsoDuyw2Eh3YL0KwQGNR9+4uBXJleZiBU+haQrb8n9Tz+za0Qiw/QGt6tFfK1ccBe24EQT+JMqu+GHaqJhJx4X9O+u6qJiZAwKIRiGjfWA214aWBV999dcZOcbzDAypZ/zcK16/644MmLBsBKjIi/+zRjnGVbbt2xm9S3YzzZWRMIwA47Z3vzh3tNltqBK3r/FfyiPk7/K1cWdmxGG4sqRd4LJ9nZBO9usFmscJ2w8JEZ1NVRhdpa9s+GkNQy78vdw6csGIWOJUgS1CgwwaI/hHX3HvAHlqToVluZcsRDIQdZMiNY0lT8hNCcQUJGXXwZ1d/7XSrmlEngaarvdYMxrbHDVKpW+RUKbFwIyBaytpCMHqViNkP33Uip1fn3c3ov4BBeCdvuUGwdiOgpCuJr6ZliLpNZaEztYZJVg5xxkoAyXV9UPwjhmGsllyU0Klrrq4dSyUqB1Cr+98KRat660Qwu0nQ35LWsWUCp/M4xbRDA7bkzUTjg5gonm9CDtM7YzTH0gmRwwpmJpqgZqsAKxOvToxGHeHTlqFTBoxgOKEfHbXxfWqcyH+C9Jh22WuEg1XcAqurmqm38E+nqC4RZZEuR0Lgesq38bgQMQv+9TR23u7AOsLY62fBbaVRI5TQlRU1Erafm1VjNMHunq6LdpmZP8LKHD+A==|920

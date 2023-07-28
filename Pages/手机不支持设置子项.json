@@ -1,0 +1,131 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "Item1",
+            "DisplayValue": "Item1"
+          },
+          {
+            "Value": "Item2",
+            "DisplayValue": "Item2"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ]
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "67df7aed-e968-4de5-b2a2-4bc3dd7c7169"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "4df59e29-7c55-446a-b084-13c4c81afa3e"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "6,3": 0,
+      "6,4": 0,
+      "6,5": 0,
+      "6,6": 0,
+      "6,7": 0,
+      "6,8": 0,
+      "6,9": 0,
+      "6,10": 0,
+      "7,3": 0,
+      "7,4": 0,
+      "7,5": 0,
+      "7,6": 0,
+      "7,7": 0,
+      "7,8": 0,
+      "7,9": 0,
+      "7,10": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,2,11",
+    "4,1,2,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//FNq7mEUBTMsxp/1q8sMA2BC53ZM+dOTDJRCPPmBZp8If1weu+rqZUq/NwmPhH6jy09w4ZVq7ONnRQ3+6zzMKXkrGJA7/WSXaHpVrsb0pqagb8DPyRF18/Vg2hGtqA1dmUqUCD3RFQtqg/Q+vIdryGDp9PsS6XtV6bTTapIj7Bxx9OVaPFW6ESOIl3f1/NZV20OlRz3oo+ziAn1/w3fJDuZ28Wd5NdLGOOn4OavVI4GliSWX48yaTHrZfZoM9Ne4jQd3HuMfHj04Od6dpTo1hzFx7vy3BK4/e+yahcvzW6RJAjMy135VUmcVExRGHedkv3vlfrZ+ugs2uYd4LY5FnsrakxEjzR5oZTZE/O0IBUwpQgyjxy0/+h+996lAp8Sz8BAMvw3d9nhxagHdofFm5v/09NYVlGHHV/QiTgME1lzXmRrqbOzrmuB46+hRLq/sK2yfK2IjE2kNMisDYvkaozA/QY7Ji9nWUPtR2PQ3wxRRmrSUv+QumDj7UYbGPpPrp4jC5P29Kz6/meJCFLzIEj8QimD77VbBXBQ3vnzwAdJ6Xnt73qbCHAYCoSLUF3NN/Ypdw7WjGscMVw9OSwcnvCqE4K7K8PtROuCQRINsgOZCDXLBHxBFO7bBseoZm3yK9XxnJiGWt5mSGAmYtvHHa6p5+ORuv9eeapaEASDT4zmPriiqeO/qLXtTO/+aMtOV0bLcGV26HL3yCRFobP7ed/twoteqZWtUt1tHcGgVqsyFGj9QmT7BGFY0euJKYu3L5HBr+Y92YZ2W7QGU7alh8zRKFXlfN1v3f1iYR81V7prXXaOqMkX7+IkQYzcAI0CDNHudxhnN31gFyuzNtJ47bCIGxlxl+sfYIXTusKy1iWq1rKqziqP7+Qc10DYcM6W8cF9gJWEanq1MUomA0CRLw0w==|920

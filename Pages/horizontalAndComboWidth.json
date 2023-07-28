@@ -1,0 +1,457 @@
+{
+  "Rows": {
+    "Count": 6
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 30
+  },
+  "Values": {
+    "1,2": "Auto Fix",
+    "1,12": "Range(Star)",
+    "1,22": "Range(px)",
+    "2,2": 5,
+    "2,12": 5,
+    "2,22": 5
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "ID",
+          "GUID": "2821d5a7-6de7-45fe-aa89-e46bad472167"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "ID",
+          "GUID": "13bad808-14c8-4e50-ae86-9d4db1340b9e"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "49428fa274644483b92053125d3f5dab",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "a704bfc5-df32-4cfc-8f85-1a10a969cf7f"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 300.0
+            }
+          },
+          {
+            "GUID": "c77cb5c8d39a456fa9bca3ce0e729ecb",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "2cdc8c07-a57b-44a8-a40d-c37202cb41cd"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "eb113e72ca12427c8b69c662fc1b6a1a",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "0304c3a1-13b2-41e1-92c7-9c02c4d65d92"
+            },
+            "ColumnName": "电话",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 80.0
+            }
+          },
+          {
+            "GUID": "878076867aea4040910635d8070c3abc",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "地址",
+              "GUID": "2f97e3b9-e842-48f7-b602-a483f0da7945"
+            },
+            "ColumnName": "地址",
+            "WidthInfo": {
+              "MaxWidth": 50.0
+            }
+          }
+        ],
+        "CellDefaultValue": 5
+      }
+    },
+    "2,12": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "ID",
+          "GUID": "9a1a21d5-acc0-4392-ac28-7f3431b3a78d"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "ID",
+          "GUID": "4cf852fa-0def-4ffd-88f6-9e568ef4f5f2"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "49428fa274644483b92053125d3f5dab",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "3c87c269-9c25-4738-a800-4104df2a908f"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 300.0
+            }
+          },
+          {
+            "GUID": "c77cb5c8d39a456fa9bca3ce0e729ecb",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "61a2fa70-7107-4172-8c9e-4e6b206c006b"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "eb113e72ca12427c8b69c662fc1b6a1a",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "2b3088ae-6f97-4b2e-890c-edf44f587178"
+            },
+            "ColumnName": "电话",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 80.0
+            }
+          },
+          {
+            "GUID": "878076867aea4040910635d8070c3abc",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "地址",
+              "GUID": "df8a32f7-724a-4c0e-a47c-80358c290011"
+            },
+            "ColumnName": "地址",
+            "WidthInfo": {
+              "MaxWidth": 50.0
+            }
+          }
+        ],
+        "CellDefaultValue": 5
+      }
+    },
+    "2,22": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "f59ed637-96c6-445a-abe3-bfa9c3260166"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "cee9779d-f655-45da-af27-59e241dac97a"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "49428fa274644483b92053125d3f5dab",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "e787726a-cff3-42a3-9530-9ebf6d2b0c8c"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 300.0
+            }
+          },
+          {
+            "GUID": "c77cb5c8d39a456fa9bca3ce0e729ecb",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "fb7d94ab-1491-4b08-93f9-8b20732a9d20"
+            },
+            "ColumnName": "联系人"
+          },
+          {
+            "GUID": "eb113e72ca12427c8b69c662fc1b6a1a",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "8eb35854-c750-4507-a2ed-74e2dbd70a20"
+            },
+            "ColumnName": "电话",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 80.0
+            }
+          },
+          {
+            "GUID": "878076867aea4040910635d8070c3abc",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "地址",
+              "GUID": "8a20fb72-ffa9-442c-adc8-54a8983556f1"
+            },
+            "ColumnName": "地址",
+            "WidthInfo": {
+              "MaxWidth": 50.0
+            }
+          }
+        ],
+        "CellDefaultValue": 5
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,2,8",
+    "2,12,2,8",
+    "2,22,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 2,
+    "PageLoadingMode": 1
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//5qWVuCQfk9vOhn212hwDXoBm68jCL9NPO3WzH+thGkhG+EDJ+CmQA4jJZYZfTtynTOf02la3oI/HrYojwfPrpfPP3JCZTFeIDNnANeD4OFCpfvhhUUfaAky5JQ6KbDmj24MFw/pVlvNkil0F965Ko9OCPx71Af18IHa552reRMEbe6YZfNbh/hz6K256aS1RrBF5h7c3WuBJKi+PfUa5TDc15VTrOdCKOQF18YmEQVPQ6QrPSkA8NesgtUquQmvonkzrLkFjZyi6fYv+PKkoUkmIHXghnhf96sXPhxjc8bh/A32KAawiYIrY5yhvLqqMyW+dePE+Rk44O8lh32QB24S4XHGFWKhHcyztVNYvG6w/TYb9PWZcsh4o/4TefA5Qf6xWZmqux7h5JF9HR7AfC2wx7TWL7OaYwpSdXVwE5lKxWFUTZ2f3KQjjh74WClYxi+X2C7iKOBWFcpu33iJ9POiuWpaftx+0VPAFZ9w5kkR/aGkmbZIOA+wML0ZiZn3+SyJrlCsiQETP14Qo1hB+gi3A1NSzAi0TpBNjUVgSrfLCJgVG1iyH7ijgmA25EBB/rHF8t07AGHae5xxDt7vKBr1/nE87Uvv6fOU0O1Wy1Mdo4iti/JG/iOgQ7IiInxFJN9o7MQ9w1BWmBFi9il4QH7pbukX+lNsDHlwdx9ax0PO2dA3yB9kFW5p+V1hjvUJwo253hvdrC5WTf60vRHwRVPFsHcS5JuYNVykvVJ7Tzf7OeO5WepTa4TBl+ORmO5TPFo13apB+SeUF3ovRQzo0U0rlhk1c/dJAAQIhTAsDwEhiHegMg8AFEt4dKJTXLfpSmtrap3H5xH7qkG1rUB+2lUBfy4lHQ/0Ag2moOXGdVX9tfgFcvaVY74JRdfJpoLBHBAOyMLqRIeIJbrRDZQY4gw==|920

@@ -1,0 +1,307 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 37
+  },
+  "Values": {
+    "0,2": "组件设置",
+    "7,19": "固定宽度30",
+    "7,26": "自适应"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "Combo子项宽度设置"
+      }
+    },
+    "4,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ColumnOptionsCommand, ServerDesignerCommon",
+            "ListviewName": "Listview1",
+            "Columns": [
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "Integer",
+                  "GUID": "fc4e8951-8f94-4e46-8890-7e0b5b91f8c4"
+                },
+                "Name": "Integer",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "Time",
+                  "GUID": "66736294-2eee-456f-a54a-0d8f3585b7dd"
+                },
+                "Name": "Time",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "测试列",
+                  "GUID": "51677307-6b82-4f45-8b0b-c3661a031af9"
+                },
+                "Name": "测试列",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              }
+            ],
+            "ID": "3039c3963f6e4ba5ac90a661e8c4e957"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,2": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "测试数据表",
+        "RowIndex": 7,
+        "ColumnIndex": 2,
+        "RowCount": 15,
+        "ColumnCount": 33,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "AutoFitColumnWidth": true
+      }
+    },
+    "8,2": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "ID",
+        "GUID": "c13720c0-4e9a-4a56-8b91-54987a597756"
+      }
+    },
+    "8,4": {
+      "NameUsedInJavaScript": "Text",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "Text",
+        "GUID": "cb41735a-ca95-42d0-af31-73b5a4a927ea"
+      }
+    },
+    "8,11": {
+      "NameUsedInJavaScript": "Date_and_Time",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "Date_and_Time",
+        "GUID": "56104faf-a6d1-43b8-a36c-73af4a1a9f15"
+      }
+    },
+    "8,19": {
+      "NameUsedInJavaScript": "固定宽度30",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "测试列",
+        "GUID": "0d9f8f32-3725-48c0-a72b-80f149ddea9d"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "0cc1634d-36cb-41cf-84a4-18cf2c8e7c8c"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "7579a3ca-1f72-41c9-a8eb-d71dfab51fb1"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "43ec40a65e894b508acd249ddbe12f87",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "281f5211-0196-4a2f-99b6-a2bb87ffeb17"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 30.0
+            }
+          }
+        ]
+      }
+    },
+    "8,26": {
+      "CellComment": {
+        "Comments": "纯自适应\r\n自适应设置最大最小值\r\n自适应仅设置最大最小\r\n"
+      },
+      "NameUsedInJavaScript": "自适应",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "测试列",
+        "GUID": "2f0e6d02-f1b5-4773-ba53-ea1c83c93612"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "cb0d3bbf-dff5-4024-a893-1dffe4f56ac6"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "fb8b3979-02e8-4f12-b24a-b6604227ed53"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "7d4ab022e76f49e69f688fa1af45595a",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "99ff31f4-99eb-4eb0-8b57-d8ba020db99d"
+            },
+            "ColumnName": "企业"
+          },
+          {
+            "GUID": "cc8c288480dc45b6ac0f51f9fb76df04",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "40f4f5ea-1ddf-4004-8291-b5f02598d9b5"
+            },
+            "ColumnName": "联系人",
+            "WidthInfo": {
+              "MaxWidth": 60.0
+            }
+          },
+          {
+            "GUID": "1d0f3c13bff94923a99b8297ee972454",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "d80d211f-2f8c-4728-9b2e-53941e21999a"
+            },
+            "ColumnName": "电话",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 50.0
+            }
+          }
+        ],
+        "AddNullItemWhenBinding": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "7,2": 0,
+      "7,3": 0,
+      "7,11": 0,
+      "7,12": 0,
+      "7,13": 0,
+      "7,14": 0,
+      "7,15": 0,
+      "7,16": 0,
+      "7,17": 0,
+      "7,18": 0,
+      "7,19": 0,
+      "7,20": 0,
+      "7,21": 0,
+      "7,22": 0,
+      "7,23": 0,
+      "7,24": 0,
+      "7,25": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,5,19",
+    "8,2,1,2",
+    "8,4,1,7",
+    "8,11,1,8",
+    "8,19,1,7",
+    "8,26,1,7",
+    "4,28,2,6",
+    "9,2,13,33",
+    "7,2,1,2",
+    "7,4,1,7",
+    "7,11,1,8",
+    "7,19,1,7",
+    "7,26,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "测试数据表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//ffNgiU6Pwa5ffd7RkLYNE7Qiyq5EX0ylYKRuw52R6BFSFQm89zgcLr9yy/qkSJmoU4xVkvd/A3AehhGUnHmG9s14Ty2UfiRzd2JaVLHErJiYha3CIj17gZ0AmxAnHd/9/gxovJkSuJCMt2rgyjnV/rfVG4MlgqY6Xaex89kkSOOaLj4S5yFaV7MHTEpGSfaHnABBQHkB2C0ig0LqBg1CVEB+fTDqMg+QGNdpaf/CsfhQ95PkQmjNVn87EW0j31UUnGsvuvbfUmSbpSPHM7Wq5zVXUarFAXurLWcnZzDxhJfNhRCHA81Dbj+z5PNkw1nnzQsgqQjEgRs+ND6lEJdEAQ3IhifOToJBLNxSZkXNtr084z6nDDiR39B3PnhEa5bAbpz9IIPDLF3q6Zr/+DeV4vxdVKv/FEHM6+R90bFC17Ftp0uAwhqbpBw+NF02ZmCyqN/bi+/pjT7evHp8S8n+EPjYT5rJrl7Kokqg5FciVool2i5tcPDxvnJDIn9e4DhNC4U45UUgSZH+Ic0ePFAgSVSCtGheGrHn19hJtMQCqQzRue88eISgo/P+4Ei4Y58TyWwJ6j5wzJWQCoCMpEizuBdpGqOS0ra/BQZMcp0WxA/0MGFL3+hSSYijTmFunoNlrSgSpYhhhJY/zTwhYNa0ySPlAY2KwqsrHQMgr97N5ujgcTfwNFVG9j1I6EiOgk+QZKeMZf7zUUP3lE680YsNJNpOSxJav9skeDDrVWU6tY2LY7X3whvKSjuQcx460KKY8yrX4OWW9CZyDA/GIkoFJqOStdpIVE2AKZWHt+9LIkoJMv22/CEiAqcIskIX+B+jwyN1oXJk9LkjYd2q0oVERuhAV6KiWDU0RQ0+KDX3nmEi+CJx+zvh+859eVq///VdET7dBgH/JXL+v/NZFFGu7w==|920

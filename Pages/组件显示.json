@@ -1,0 +1,338 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 37
+  },
+  "Values": {
+    "0,2": "组件设置",
+    "1,28": "弹出页面",
+    "4,28": "column option",
+    "7,19": "固定宽度30",
+    "7,26": "自适应"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "Combo子项宽度设置"
+      }
+    },
+    "1,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+            "PageName": "弹出页面"
+          }
+        ],
+        "Text": "弹出页面",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ColumnOptionsCommand, ServerDesignerCommon",
+            "ListviewName": "Listview1",
+            "Columns": [
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "Integer",
+                  "GUID": "8ad152a6-93a8-4af2-9abe-a772c8e0a677"
+                },
+                "Name": "Integer",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "Time",
+                  "GUID": "fbbd19c2-7f99-4da4-8662-54c9d60c71c6"
+                },
+                "Name": "Time",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "测试数据表",
+                  "ColumnName": "测试列",
+                  "GUID": "75e8a573-a635-4d42-9293-04ee6b8e047b"
+                },
+                "Name": "测试列",
+                "HeaderCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667,
+                  "HorizontalAlignment": 1
+                },
+                "TemplateCellStyleInfo": {
+                  "FontFamily": "Body",
+                  "FontSize": 14.667
+                }
+              }
+            ],
+            "ID": "b862054afeab47b4b5a1b5960e45689b"
+          }
+        ],
+        "Text": "column option",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,2": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "测试数据表",
+        "RowIndex": 7,
+        "ColumnIndex": 2,
+        "RowCount": 15,
+        "ColumnCount": 33,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "AutoFitColumnWidth": true
+      }
+    },
+    "8,2": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "ID",
+        "GUID": "5187067b-a771-479f-9d24-4a3f31ab4e2d"
+      }
+    },
+    "8,4": {
+      "NameUsedInJavaScript": "Text",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "Text",
+        "GUID": "a2646966-90de-476d-8e34-a9e0f143f734"
+      }
+    },
+    "8,11": {
+      "NameUsedInJavaScript": "Date_and_Time",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "Date_and_Time",
+        "GUID": "4465cae3-489f-46b0-bc58-98b0e26b98e7"
+      }
+    },
+    "8,19": {
+      "NameUsedInJavaScript": "固定宽度30",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "测试列",
+        "GUID": "8107d3a3-0733-47d3-bfef-cfde6858307b"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "30691018-8ddc-4143-a555-f4c0a1bd32f6"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "50bd298e-4c79-4eec-9d15-983c16e24878"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "43ec40a65e894b508acd249ddbe12f87",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "7a8361a6-8b24-4dcd-be5c-2594a31f789f"
+            },
+            "ColumnName": "企业",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 30.0
+            }
+          }
+        ]
+      }
+    },
+    "8,26": {
+      "CellComment": {
+        "Comments": "纯自适应\r\n自适应设置最大最小值\r\n自适应仅设置最大最小\r\n"
+      },
+      "NameUsedInJavaScript": "自适应",
+      "BindingInfo": {
+        "TableName": "测试数据表",
+        "ColumnName": "测试列",
+        "GUID": "953a3283-4b93-4d53-8837-cd14dbcfaf84"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "汽车企业信息",
+        "ValueColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "40aad070-5945-4c40-83c5-720e7a2d9438"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "汽车企业信息",
+          "ColumnName": "企业",
+          "GUID": "795d7108-086e-4b91-a8fa-64f42a0d32bc"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "7d4ab022e76f49e69f688fa1af45595a",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "企业",
+              "GUID": "72495283-7929-4c38-8673-3794d800a86c"
+            },
+            "ColumnName": "企业"
+          },
+          {
+            "GUID": "cc8c288480dc45b6ac0f51f9fb76df04",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "联系人",
+              "GUID": "8364e215-a9d1-4f18-8e4d-8b75892fcad3"
+            },
+            "ColumnName": "联系人",
+            "WidthInfo": {
+              "MaxWidth": 60.0
+            }
+          },
+          {
+            "GUID": "1d0f3c13bff94923a99b8297ee972454",
+            "BindingInfo": {
+              "TableName": "汽车企业信息",
+              "ColumnName": "电话",
+              "GUID": "277ff0ac-ea32-4053-a36f-42bdd60f9c91"
+            },
+            "ColumnName": "电话",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 50.0
+            }
+          }
+        ],
+        "AddNullItemWhenBinding": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "7,2": 0,
+      "7,3": 0,
+      "7,11": 0,
+      "7,12": 0,
+      "7,13": 0,
+      "7,14": 0,
+      "7,15": 0,
+      "7,16": 0,
+      "7,17": 0,
+      "7,18": 0,
+      "7,19": 0,
+      "7,20": 0,
+      "7,21": 0,
+      "7,22": 0,
+      "7,23": 0,
+      "7,24": 0,
+      "7,25": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,5,19",
+    "8,2,1,2",
+    "8,4,1,7",
+    "8,11,1,8",
+    "8,19,1,7",
+    "8,26,1,7",
+    "4,28,2,6",
+    "9,2,13,33",
+    "1,28,2,6",
+    "7,2,1,2",
+    "7,4,1,7",
+    "7,11,1,8",
+    "7,19,1,7",
+    "7,26,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "测试数据表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "comboandusercontrol",
+      "Formula": "组件显示!$C$2"
+    },
+    {
+      "Name": "showpop",
+      "Formula": "组件显示!$AC$2"
+    },
+    {
+      "Name": "columnoptions",
+      "Formula": "组件显示!$AC$5"
+    }
+  ]
+}//DFcVusfSpCbIOPX7D3M1mhE8n9TL0NlFRZMwg0oYVgRm3hpek7KmOdaNNvrnUDXlMKZUU/VXlw4I6Tw+jMxcAn3VM/xcdHxCkHoK/PSw1ishzbBjTMzVz1hJfA5sJbLaiOfjm/PuZCSAQ271dKewPbuKEPwN7I6sbzhkaEDMD4wQ3GQJ/SLgc63/n/eAxwcOgEmbC0NVaKN7yaEs45oTPItrwkzQylk8GBwhphjpo6MyE/2WCWwIG1uUvVMnnMKZaQ9QUtb6qc81drpO9PhT6eBAVbG3Hbr2NtALtLEXRaNzanufn6iE/F1nb8N654BQPKzKkpI//7kzhJAAeuYZFYPGcFsUcBnBcsAxnXkP+YVPGrPPWdJuyb3YvYcqRWmo9C12SueE/N8mguvCR4ZEBkqFkFEDnyPiRcdSkl2FBEUrC7c3AYMJ43wGuvg+D//OKHDlhAa357EIx1TsMONt4Azb4vkOO4Olkn5fUnAE1H04Leo9UnxW97EaUDqynaUu5um1o6/6LknS938KcmLMoccRA3bJwSTSee+WOinAeW+dAScCkPJWyA7Mk+Q+aDTmN/OTKBFUtq/BDImfo8m7Z7W6C5bgiWqKbC/YvHd91T5SgMaSsTFhipX/w4BE/m94nPIkFpqbKRD3CevmzIqqxrqW2cAad0zqcsz4vb4hhJGB9btUD4ixVokMCpNoYwruHcnBdcJAT+4R1C259YoBnfao1IVcws6gFI14LUQ7bwjnl7+YB/mKL+eZC0ft60MCjEcBUlWa8lgLQrjyDGlSr5CYcykTVBEDKvt0W10tlxtPa1uQ9F+vBrJwW3xc3xbQmaoco9lAO32u99HmLkGWRKZPz+9Soou0hYODIfbSo+fgzc8DKWxwFjfwXcpi2D9DbdkKT8rHmn16xUPC3pjtuQ==|920

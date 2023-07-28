@@ -1,0 +1,424 @@
+{
+  "Name": "newTable",
+  "Columns": [
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s1",
+      "Alias": "fff",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s2",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s3",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s4",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s5",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s6",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s7",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s8",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s9",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s10",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s11",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s12",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s13",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s14",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s15",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s16",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s17",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s18",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s19",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s20",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s21",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s22",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s23",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s24",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "nvarchar",
+      "MaxLength": -1,
+      "Name": "s25",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d1",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d2",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d3",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d4",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d5",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d6",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d7",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d8",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d9",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "datetime",
+      "MaxLength": -1,
+      "Name": "d10",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i1",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i2",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i3",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i4",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i5",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i6",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i7",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i8",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i9",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i10",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i11",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i12",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i13",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i14",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.Model.Tables.BindingColumn, ServerDesignerCommon",
+      "Required": true,
+      "DatabaseColumnType": "int",
+      "MaxLength": -1,
+      "Name": "i15",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "ConnectionId": "SqlServer1",
+    "SourceTableName": "newTable",
+    "SourceTableSchema": "dbo"
+  },
+  "PrimaryKey": [
+    "ID"
+  ],
+  "Relations": []
+}

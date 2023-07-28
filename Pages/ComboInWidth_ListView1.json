@@ -1,0 +1,316 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 82.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 34.0
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Cols": {
+    "Count": 54
+  },
+  "Values": {
+    "2,10": "默认行为（设置下拉框宽度）",
+    "2,18": "显示项包含在下拉项中(自适应)",
+    "2,26": "显示项包含在下拉项中(固定:200px)",
+    "2,35": "显示项包含在下拉项中(100~100)",
+    "2,44": "显示下拉项中，自适应不限制最大项"
+  },
+  "AttachInfos": {
+    "2,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "表1",
+        "RowIndex": 2,
+        "ColumnIndex": 1,
+        "RowCount": 16,
+        "ColumnCount": 52,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,1": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "ID",
+        "GUID": "4b81b9ee-157e-4a9b-90f2-ea6c7cb90efd"
+      }
+    },
+    "3,5": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "文本",
+        "GUID": "e5f20f74-4a66-40db-b73f-12f5647e619e"
+      }
+    },
+    "3,10": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数",
+        "GUID": "4f366e61-e1d2-4288-925b-08ec63f0a4b5"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "MaxDropDownItemCount": 3,
+        "WaterMark": "water marker",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "8cd8b3df-b0c0-4bc8-b08f-013aebacd62a"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "1e6539a9-e845-45a8-a5bc-f1e2fade5b7e"
+        },
+        "AddNullItemWhenBinding": true
+      }
+    },
+    "3,18": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数",
+        "GUID": "5c44fe5e-eb10-44a7-b3b7-f3dfea4de17e"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropDownWidth": 50,
+        "MaxDropDownItemCount": 3,
+        "WaterMark": "water marker",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "947dee12-9587-4510-99ca-99e54a21d276"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "1f2e400b-feae-41fe-a274-9837004a9c72"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "97eaf162096e428697a8b940525554e1",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Text",
+              "GUID": "6d3ed9dc-79ad-46f8-b0ec-173fa304c3b9"
+            },
+            "ColumnName": "Text"
+          }
+        ],
+        "AddNullItemWhenBinding": true
+      }
+    },
+    "3,26": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数",
+        "GUID": "8a40c023-3cae-4fef-90d0-d5221e926859"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "02ed23bf-0db6-45fc-8c80-a32d9c4d0086"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "840a6237-6f46-45f0-a5a2-e5830dbec274"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "6ba4d8b713a04b419052246679dc402b",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Text",
+              "GUID": "8845e111-4826-44e7-b1db-0073ea5e2afb"
+            },
+            "ColumnName": "Text",
+            "Alignment": 2,
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 200.0
+            }
+          }
+        ]
+      }
+    },
+    "3,35": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数",
+        "GUID": "8f4fd2f9-2073-44a7-b707-be2bf51b7f40"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "验证自适应的最小项",
+        "ValueColumnBindingInfo": {
+          "TableName": "验证自适应的最小项",
+          "ColumnName": "ID",
+          "GUID": "24652425-3dfb-4b27-827e-ea7f7eb447c3"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "验证自适应的最小项",
+          "ColumnName": "文本",
+          "GUID": "8aabd3e8-2f8c-4075-bc6e-619d0a0f1695"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "5b928a9cde094c5993484a4c1d50179b",
+            "BindingInfo": {
+              "TableName": "验证自适应的最小项",
+              "ColumnName": "文本",
+              "GUID": "15f84960-cc93-477f-93a5-01e574964b0a"
+            },
+            "ColumnName": "文本",
+            "WidthInfo": {
+              "MinWidth": 80.0,
+              "MaxWidth": 100.0
+            }
+          }
+        ]
+      }
+    },
+    "3,44": {
+      "BindingInfo": {
+        "TableName": "表1",
+        "ColumnName": "整数",
+        "GUID": "249b0eba-3df9-4d22-af66-a5d8ac80b356"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "IsBounding": true,
+        "DataSource": "验证自适应的最小项",
+        "ValueColumnBindingInfo": {
+          "TableName": "验证自适应的最小项",
+          "ColumnName": "ID",
+          "GUID": "645611d1-dbdc-4cf6-9436-2e8a627f423e"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "验证自适应的最小项",
+          "ColumnName": "文本",
+          "GUID": "89fe5d00-5807-4db6-8acc-2d85da2d4e5c"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "d0c0ac0a9fa040cb896858811079fc9a",
+            "BindingInfo": {
+              "TableName": "验证自适应的最小项",
+              "ColumnName": "文本",
+              "GUID": "7133b05d-aabb-40ab-bf9b-77dab0409bfb"
+            },
+            "ColumnName": "文本",
+            "WidthInfo": {}
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,10": 0,
+      "2,18": 0,
+      "2,26": 0,
+      "2,35": 0,
+      "2,44": 0,
+      "3,18": 1,
+      "3,19": 1,
+      "3,20": 1,
+      "3,21": 1,
+      "3,22": 1,
+      "3,23": 1,
+      "3,24": 1,
+      "3,25": 1,
+      "3,44": 1,
+      "3,45": 1,
+      "3,46": 1,
+      "3,47": 1,
+      "3,48": 1,
+      "3,49": 1,
+      "3,50": 1,
+      "3,51": 1,
+      "3,52": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,1,1,4",
+    "3,5,1,5",
+    "3,10,1,8",
+    "3,18,1,8",
+    "3,26,1,9",
+    "3,35,1,9",
+    "4,1,14,52",
+    "3,44,1,9",
+    "2,1,1,4",
+    "2,5,1,5",
+    "2,10,1,8",
+    "2,18,1,8",
+    "2,26,1,9",
+    "2,35,1,9",
+    "2,44,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "表1"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//PuzQopax4Nj6ITwhLz00iHRxAQ3AAiNck8I78lmXrVC855DlMEZc+Om1yhW/TossD0yMeOTzFgzE9RBVM5WLSNc+PR+Ag3g9K0O6MuOs4PejBNoo8qPAXcrTmAygSYEnyGeM8hz0DsClvFcyBIfvaQJQY9hEH4AjNcEgf0Q7OEVTJNtlSIFpLlolQ+3upRo4HQWEkW1Nlw8+DKd+Hv0GCFlimPQlcQg+g8FObkRHfRRHiVa97auifyRGiTgQNvqJXjxae+pzSYGGbluqArJSCnHElv+GyYTSK2K2Q/mHt0TsV3SWKPTrE10waVPSnzU8yMaJYSE1KP/UJJ+q24Zd9cYL5yRYi5hjDdiOxlg1grt76wzyLvY+wCL7jW5uut6rotnSds4FSXEyMWTRZL2LKdGXlD9LC7J2pNmVGNT2pYFj96m69VwvA/LkwW7Nr2y0ULUC5ENsQHmyVMl/UYRKRWWBTJJkJEDvYdURz+vuWcJQe4qGnWt7DWovzVPL068QktBkNQ9tklYyUKmUd/0OatGqYcVohZYbN9a7VLD3J0L2thZu2xHfUtOUyHJhYjWGI9PvD565tPHu5JNib0r5/CQtPnu9SPgBThMkN4XDeZrySDsC5/z/IB8aRgnVZYBcHdZTM6y4zNGhj1iUA4IChH1x283k65HC0TC3+R56bbqiKjmYGLxGWnD7xW2YFos+ZVuPqPGgDCW0HOekIP5gzzJuzSleUR40syAzPrLJTDhWhmk379WD73w2WwA3hWwrbez4RcYe0ljEawo4kvM+8ccHpO3/2UI3IgDvMzb9zrwPWa/o+hPvEGItPZaJv0FpDNUDIlEHTZ9UWAB6ktsWEHmMnGwyvYbZdzEASf5dHmBti3LJlksP1uPOr0ZK27fLrvG9zMTjNJ8CrRlWlAnxYQ==|920
