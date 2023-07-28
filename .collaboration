@@ -87,7 +87,16 @@
   },
   {
     "ModuleName": "PCPage/Combo设置0",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\EmmaZhao",
+      "Email": "emma.zhao@developertools.com"
+    },
+    "LockDateTime": "2023-07-28T18:03:28.3795716+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\Combo设置0.json"
+    ]
   },
   {
     "ModuleName": "PCPage/ComboInWidth_ListView1",
