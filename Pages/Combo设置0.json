@@ -7,6 +7,7 @@
   },
   "Values": {
     "1,2": "下拉项长度大于下拉项的宽度设置",
+    "3,29": "验证协同",
     "5,2": "下拉项中一项都不显示",
     "5,14": "下拉项中显示所有",
     "9,2": "开启多选 ",
@@ -98,22 +99,55 @@
         },
         "DropDownSubItems": [
           {
-            "GUID": "9d291bea35cf40f392755a3e27e52942",
+            "GUID": "ae57340408c74e8186bca47394fb2217",
             "BindingInfo": {
               "TableName": "测试数据表",
               "ColumnName": "Text",
-              "GUID": "121bd652-350d-416c-9ef2-6595dd040f51"
+              "GUID": "2cce47c7-c065-4e6f-9e4b-226868fda4d6"
             },
-            "ColumnName": "Text"
+            "ColumnName": "Text",
+            "WidthInfo": {
+              "AutoFit": false,
+              "FixedWidth": 400.0
+            }
           },
           {
-            "GUID": "b25340cb3332473f845060c59dd87c50",
+            "GUID": "664ed3abca3b4323942d2b972e1566ae",
             "BindingInfo": {
               "TableName": "测试数据表",
               "ColumnName": "Date_and_Time",
-              "GUID": "4f2a9634-3ea1-43ad-944e-de3a9c6b274c"
+              "GUID": "a96f51c8-174e-4396-ad8b-a50a39fe064a"
             },
-            "ColumnName": "Date_and_Time"
+            "ColumnName": "Date_and_Time",
+            "WidthInfo": {
+              "MinWidth": 30.0,
+              "MaxWidth": 300.0
+            }
+          },
+          {
+            "GUID": "260ccfb9b3ce4b789d6422ca03721531",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Integer",
+              "GUID": "46000ade-5989-43da-bf19-787fe25c575c"
+            },
+            "ColumnName": "",
+            "WidthInfo": {
+              "MaxWidth": 240.485
+            }
+          },
+          {
+            "GUID": "c4adca8388db43d0b1c4c502179cd1c9",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Time",
+              "GUID": "3352bd8e-32a6-428d-b50e-b6793cef76b8"
+            },
+            "ColumnName": "Time",
+            "Formatter": "上午/下午h\"时\"mm\"分\"ss\"秒\"",
+            "WidthInfo": {
+              "MinWidth": 30.5
+            }
           }
         ],
         "AddNullItemWhenBinding": true
@@ -1146,4 +1180,4 @@
       "Formula": "Combo设置0!$AE$27"
     }
   ]
-}//IVhoBudcRA2ZUZk+gKQQL+OY6zj/Bvi/zn4DcaF2rvZSIv0z7+/IBibcODEiVrrMULzeZcJs4od0AI8lkpZfvVE6AmTa8gN3117WaVyCXYj5ZkUjij5fwML1BTY4afGtQjG4l4ZKuatk6/7yb788STiBOuk7DugaSJ+eNZ1JTpVZOpkeDdGpvKnuKJ9PmUZzPHzL21qyNJQMBtTG/1Ncm45lAyA+F12DVwEgl9pOVusWIX33ZU3aCQvLkyeCsz0kiYnP5TTddqVAfkJNJltryBoJGWBKMWI3picA9OI3suH2CjABuBvq0R/A8e0hVmsqzyF0OL83CEHIhPLsOSNiiUVFni89kf7/k0sxll2Ivtz5NwRLN2o9Kq5WF4m6g4PZctF0KUnZl9cP2NILOW72WsmCRwHDMeae/R0f1dlbkNLGrX5LPf6JSB5KcARhVjH/JOc73sG0O99+yTfcVNxnRMQN4KmjBcBtbheEIVCekA7872IcZMWV53jWIbGKrU9VAr0MAsYhch3WV0fc76DF59IiGTPMKQxrStGuWb7KWAV6+29QCXxVjNrRv9LAPE4pNyK5UbxmejqsGe4nWV9xvynv3wRmseMg8nlgto35NdM+aZU3buIooiK9kUzML+fDjiBR7zm4ISI8Y2gNQXV8N9lfl+JzOAmR4IR+zOK6eyqAgEdT+PFX5Q/gOweTbYY0mDcDIIfwqHG3VuWUBNAZRmTMHYjvAT8vT+COzxE/tvNe6KdHEU8I94ilA/dqkZ/ImaU9HJKLsN1D2Qt4Z2INIgGzmssQR2ms9aub2KUIKnf9nFMyfvMizI8ojDZWPVFIKOnZNOo/E5jWUzLSTVWBu8NRF1Ki3GmHbGGFG6LHmhRyKiB+xJQagGyRLgqvpJAyksi1pH5CUa14+Jc1LgKFqg==|920
+}//4HrAVSIQHLUNOD/E0YQLghjUW3GkkMp11WkF9V0XQKvsAM6cd++P1eAcGMsdcavoPO9/fVeXtGMmX5nPl+vV97EX11Sfp9wXo6htv9VuP5CgIzGekwvlFz0Tnc6jcO1qiOo0DsqfamhuciuVeYCaaspCaPGEV6ZoZWqJ6ptmwtEok2J/vJxlStocRiFQpfdEc5/+3JDPGSxOnDcN4XerpuqypkINZVyzqep5ahEaVSo1gHcvmhYDpBr3ysbdZEtBufJiP0IlljQx+hoVwd5lz7uvd7vqfMPaWoXMNdJBqXgqLklheAFsYmDvPups2mlm2l0gya/mXolA3mUchqhi4CV7lamtoUID/iMs0CIvVktFND8Ve4m5o1gMs+FMhPCwzklgQlivZ/nAwxZ6dLFiKW8jlT5tVorliL4rHHp/PJ9Ylo0SEMnjYZPxdey0UBm+FIENQxnpqcnA1R8va/9f+7e5Q366j1FE0D2Y8/i5yGMGUsU09pSoU7olvTf8SYqSNzb9Ao3BE+s1K3pJg1xecHAZpbvQK3oxhTHZjyu5yCzXjW//MJI2G0zP2ZtRLYEVW83wkJUC8QORVur65ZV0at564Bw61zXd5a3pot+VUp+U9CICdpUMYJC7FRGbjI9N2RYzAn9E6saBmTvjicjdOLl+/3gy/817c47g3+AxaB0fdcOitMtTf9YwvIXyS0YR+fMiO5GfyFYazyR7meXvGfUI9ympMtnStXcnj90Zkx16W33ExmGDbvlig2gx80qdbt/oQ1yRiEqvPkftNa/OJCQp9DDE6E5b8ZP7Jdr7W/QjZESpDEuSG1hAfZbWLdHLtkB3+oCMKKX8LGtqW9ibtYRMEV7tGj8TQRzOlvkU64k9RPZtx8SNL0NOE/JDQshKIQTYDLGTRjYNq+L3hpibWA==|920
