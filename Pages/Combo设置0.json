@@ -80,6 +80,45 @@
         "AddNullItemWhenBinding": true
       }
     },
+    "4,29": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "测试数据表",
+        "ValueColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "ID",
+          "GUID": "bfda8613-25f3-4a47-bbaf-7500a8166f4c"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "测试数据表",
+          "ColumnName": "Text",
+          "GUID": "026dabcc-79e0-453f-b82a-9ce35d385e77"
+        },
+        "DropDownSubItems": [
+          {
+            "GUID": "9d291bea35cf40f392755a3e27e52942",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Text",
+              "GUID": "121bd652-350d-416c-9ef2-6595dd040f51"
+            },
+            "ColumnName": "Text"
+          },
+          {
+            "GUID": "b25340cb3332473f845060c59dd87c50",
+            "BindingInfo": {
+              "TableName": "测试数据表",
+              "ColumnName": "Date_and_Time",
+              "GUID": "4f2a9634-3ea1-43ad-944e-de3a9c6b274c"
+            },
+            "ColumnName": "Date_and_Time"
+          }
+        ],
+        "AddNullItemWhenBinding": true
+      }
+    },
     "6,2": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -1011,7 +1050,8 @@
     "29,15,2,11",
     "26,23,2,5",
     "23,22,2,5",
-    "26,30,2,5"
+    "26,30,2,5",
+    "4,29,2,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1106,4 +1146,4 @@
       "Formula": "Combo设置0!$AE$27"
     }
   ]
-}//MFXpWP8OycmqTOF+WDJxkPdaXMjE0j1jlucz+aO6WbIbzIjQv7vEJwM0GddO2g7ghn/gFOp84iACEQIwkIB/H7uwKnmS9arHABoL66+BOdoDVSFXDxknSGKdtDSMMXfdgJ3Vord+c8tFBp5/TkWbDmI4fqJX2DuWxdMi1cJdtnZId/a2mUJGXSj4rdc4rD6tOluYH8kdS7b7yQUwYmhAZJ5oVFbu5IPFRBOAk/h/q/bEeODKHH7Z4hTmIcV/6Z7niomWO0ETala+uEwQnMNP1MlBsEWoS5nLipHI2S4pv6MDFvl8crA/FEOVSNLldp5Y4IISQ5Gg/LUlwVTb7VE0RwY9R0YtFTQAwGIietTEe/Jn6OuoJ3T4jbU0lRETf32GOC6eXN3HWh/5nP9Iln1N1JfIkW+3pvFWqHeSCneG87R6MfqImGULFxjwEYpOoQE1LOoXeUNkbqyFQwXeCcDW9GQIj1i8X/UP5pdx3lZGb76vh+oEmmtlGcU3Fu09IwCRQK+2uesHvqes0lOnSw8GVdojG4VdeVx6P00ApW33uPXXrnq/KsrMyH4AFKvYCrwGAmjOksbxHu2HcptQdIuzB3ZxJmYqdzPyQlxphTkfUMEjmBtj/Z+CYziSGnk+ON7i2Vh43SWepKzYHK0PMyHWM3zTGyZH9MsK24sHxncGD+hI8pRBJE8CdSIULH1BHzDQz7fofP2ac0guXCYyKfiyTc/KXWC9sZf+9jYBG2ig6J60p0icB9vIFoFZZtVBssDi0zrfSyVv7tWlLj1FiDtGsG9kd5YbmR1GbY8fL8ZEd523RDpAM62XaM3pB5Ptt/eyrMS4mgQCauXCy+METgMZxfy6gtVuHCFRLWrrFzjWPb6u+hHycUvIQ6KDH11LsRWxVDFd3U+BP2lKkFUr/l3YIA==|920
+}//IVhoBudcRA2ZUZk+gKQQL+OY6zj/Bvi/zn4DcaF2rvZSIv0z7+/IBibcODEiVrrMULzeZcJs4od0AI8lkpZfvVE6AmTa8gN3117WaVyCXYj5ZkUjij5fwML1BTY4afGtQjG4l4ZKuatk6/7yb788STiBOuk7DugaSJ+eNZ1JTpVZOpkeDdGpvKnuKJ9PmUZzPHzL21qyNJQMBtTG/1Ncm45lAyA+F12DVwEgl9pOVusWIX33ZU3aCQvLkyeCsz0kiYnP5TTddqVAfkJNJltryBoJGWBKMWI3picA9OI3suH2CjABuBvq0R/A8e0hVmsqzyF0OL83CEHIhPLsOSNiiUVFni89kf7/k0sxll2Ivtz5NwRLN2o9Kq5WF4m6g4PZctF0KUnZl9cP2NILOW72WsmCRwHDMeae/R0f1dlbkNLGrX5LPf6JSB5KcARhVjH/JOc73sG0O99+yTfcVNxnRMQN4KmjBcBtbheEIVCekA7872IcZMWV53jWIbGKrU9VAr0MAsYhch3WV0fc76DF59IiGTPMKQxrStGuWb7KWAV6+29QCXxVjNrRv9LAPE4pNyK5UbxmejqsGe4nWV9xvynv3wRmseMg8nlgto35NdM+aZU3buIooiK9kUzML+fDjiBR7zm4ISI8Y2gNQXV8N9lfl+JzOAmR4IR+zOK6eyqAgEdT+PFX5Q/gOweTbYY0mDcDIIfwqHG3VuWUBNAZRmTMHYjvAT8vT+COzxE/tvNe6KdHEU8I94ilA/dqkZ/ImaU9HJKLsN1D2Qt4Z2INIgGzmssQR2ms9aub2KUIKnf9nFMyfvMizI8ojDZWPVFIKOnZNOo/E5jWUzLSTVWBu8NRF1Ki3GmHbGGFG6LHmhRyKiB+xJQagGyRLgqvpJAyksi1pH5CUa14+Jc1LgKFqg==|920
