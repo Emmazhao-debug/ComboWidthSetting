@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "Name": "Publish Settings1",
+    "ApplicationUrl": "http://localhost/测试发布",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "localhost",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "测试发布",
+      "AppStartPage": "固定模式",
+      "TakeServeronline": true,
+      "PublishRolesToServer": true
+    }
+  },
+  {
+    "Name": "Publish Settings2",
+    "ApplicationUrl": "http://xa-dd3-emmazy1/office365sat",
+    "PublishSettings": {
+      "IsPrivateServer": true,
+      "ServerName": "xa-dd3-emmazy1",
+      "UserName": "Administrator",
+      "SitePort": 80,
+      "AppName": "office365sat",
+      "AppStartPage": ""
+    }
+  }
+]
